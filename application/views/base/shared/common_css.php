@@ -10,3 +10,4 @@
 <link href="<?= base_url("./assets/base/lib/animate/animate.css"); ?>" rel="stylesheet" media="all">
 <link href="<?= base_url("./assets/base/lib/gijgo-combined-1.5.0/gijgo.min.css"); ?>" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="<?= base_url("./assets/base/lib/bootstrap-timepicker/timepicker.css"); ?>">
+<link rel="stylesheet" href="<?= base_url("./assets/base/css/style.css"); ?>">

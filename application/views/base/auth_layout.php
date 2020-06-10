@@ -12,20 +12,8 @@
 	include_once "shared/common_css.php";
   ?>
 </head>
-<body id="single-page">
-  <div class="preloading">
-    <div class="wrap-preload">
-      <div class="cssload-loader"></div>
-      <div class="text-preloading"><b><?= $this->config->item('APP_NAME'); ?></b></div>
-    </div>
-  </div>
-    <?php 
-      include_once "shared/header.php";
-      ?>
+<body>
         <?= $content; ?>
-    <?php 
-      include_once "shared/footer.php";
-    ?>
 
   <?php 
 		include_once "shared/common_js.php";

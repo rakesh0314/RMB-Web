@@ -6,7 +6,7 @@
 				<div class="header-bottom">
 					<div class="row">
 						<div class="col-md-3 col-logo">
-							<a href="index-2.html">
+							<a href="<?= base_url('/'); ?>">
 							<div class="logo">
 								<img class="with-invert" alt="logo-header" src="<?= base_url("./assets/base/img/logo-white.png"); ?>">
 							</div>
@@ -45,6 +45,12 @@
 										</li>
 										<li>
 											<a href="<?= base_url('/contact-us'); ?>" class="page-scroll">CONTACT US</a>
+										</li>
+										<li>
+											<a href="<?= base_url('/login'); ?>" class="page-scroll"><i class="fa fa-user"></i></a>
+										</li>
+										<li>
+											<a href="<?= base_url('/cart'); ?>" class="page-scroll"><i class="fa fa-shopping-cart"></i></a>
 										</li>
 									</ul>
 								</div>
